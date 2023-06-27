@@ -5,6 +5,15 @@ selector{
 }
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+/* configuramos el uso de la tipografía que descargamos */
+@font-face {
+    font-family: miTipografia;
+    src: url('../assets/fonts/Wallpoet-Regular.ttf');
+}
+
 /* selectores globales / tags */
 h2{
     color: green;
@@ -31,5 +40,16 @@ h2{
 
 .googleFonts{
     font-family: 'Kablammo', cursive;
+}
+
+.conImport{
+    font-family: 'Fasthand', cursive;
+    font-size: 30px;
+}
+
+
+.conDescargaFont{
+    font-family: mitipografia;
+    font-size: 48px;
 }
 
